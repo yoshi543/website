@@ -1,0 +1,399 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.hair a {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.vnav {
+  letter-spacing: 2px;
+}
+
+.marginb {
+  margin-bottom: 45px;
+}
+
+.navbar-brand {
+  font-family: 'Pacifico', cursive;
+}
+
+/* not use
+.vixnivbar {
+  padding-left: 30px;
+}
+.navbar-right {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+*/
+
+/*header*/
+
+.header1 {
+  background-image: url("images/giorgio-trovato-ldC8xP2Z9lo-unsplash.jpg");
+  color: #ffffffdb;
+  height: 100%;
+  width: 90%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container-fluid {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.h3v {
+  font-size: 50px;
+  letter-spacing: 7px;
+  text-shadow:1px#000;
+}
+
+.h3v2 {
+  font-size: 30px;
+  letter-spacing: 4px;
+}
+
+.h3v3 {
+  font-size: 15px;
+  letter-spacing: 3px;
+}
+
+.h4v {
+  font-size: 12px;
+  letter-spacing: 3px;
+  line-height: 1.8;
+}
+
+.pimg {
+  width: 250px;
+  height: auto;
+}
+
+.fav {
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: 22px;
+  color: #525252;
+  text-decoration: none;
+}
+
+.footer {
+  padding: 30px 0 30px 0;
+  background-color: #f8f8f8;
+  border-top: solid 1px #e7e7e7;
+
+}
+
+a.cap2 {
+  text-decoration: none;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.thumbnail:hover {
+  box-shadow: 1px 1px 9px grey;
+}
+
+
+
+
+.page-title {
+  font-size: 35px;
+  margin-top: 5px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin: 5px auto;
+  padding: 5px auto;
+  text-align: center;
+
+}
+
+.subtitle {
+  color: rgba(255, 0, 0, 0.484);
+}
+
+.menu {
+  max-width: 700px;
+  margin: 0 auto;
+  font-size: 1, 125rem;
+  padding: 40px 0;
+}
+
+.menu dl {
+  display: table;
+  width: 100%;
+  border: solid #dddddd;
+  border-width: 1px 0;
+}
+
+.menu dt {
+  display: table-cell;
+  padding: 0.4rem;
+}
+
+.menu dd {
+  text-align: right;
+  display: table-cell;
+  padding: 0.4rem;
+}
+
+.menu dd:after {
+  display: inline-block;
+  content: "";
+  width: 1em;
+  font-size: 0.7em;
+}
+
+
+.notes {
+  font-size: 1.5rem;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.note_01 {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: #4b4b4b;
+  margin-left: 65%;
+}
+
+/*MENU*/
+#menu {
+  margin-top: 20px;
+}
+
+#menu .menu-content {
+  display: flex;
+}
+
+#menu .menu-item {
+  width: 50%;
+  padding: 0 45px;
+}
+
+#menu .menu-item:first-child {
+  border-right: solid 1px #000;
+}
+
+#menu .menu-item dl {
+  display: flex;
+  flex-wrap: wrap;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#menu .menu-item dt {
+  width: 87%;
+  text-align: left;
+  border-bottom: dotted 1px #000;
+  margin-bottom: 25px;
+
+}
+
+#menu .menu-item dd {
+  width: 13%;
+  text-align: right;
+  padding-top: 8px;
+}
+
+#menu .menu-item dl.color {
+  margin-bottom: 55px;
+}
+
+.menu-content h3 {
+  color: rgba(215, 0, 0, 0.682);
+  font-size: 3.0rem;
+}
+
+.sec-title {
+  margin: 0 auto;
+  padding: 0 auto;
+  text-align: center;
+  height: 150px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin-top: 150px;
+}
+
+
+.menu-item p {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: rgba(232, 131, 0, 0.842);
+  font-weight: bold;
+
+}
+.border{
+  border-bottom: 1px solid rgba(196, 196, 196, 0.669);
+  width: 100%;
+}
+
+.line{
+  border-bottom: 1px solid rgba(196, 196, 196, 0.669);
+  width: 75%;
+  margin: 0 auto;
+  padding: 0 auto;
+}
+
+
+/* レスポンシブ対応　スマホ　Menu */
+@media screen and (max-width: 768px) {
+  #menu {
+    margin-top: 20px;
+  }
+
+  #menu .menu-content {
+    display: flex;
+  }
+
+  #menu .menu-item {
+    width: 50%;
+    padding: 0 45px;
+  }
+
+  #menu .menu-item:first-child {
+    border-right: solid 1px #000;
+  }
+
+  #menu .menu-item dl {
+    display: flex;
+    flex-wrap: wrap;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+
+  #menu .menu-item dt {
+    width: 86%;
+    text-align: left;
+    border-bottom: dotted 1px #000;
+    margin-bottom: 25px;
+    font-size: 8px;
+    position: relative;
+  }
+
+  #menu .menu-item dd {
+    width: 13%;
+    text-align: right;
+    padding-top: 5px;
+    font-size: 10px;
+  }
+
+  #menu .menu-item dl.color {
+    margin-bottom: 15px;
+  }
+
+  .menu-content h3 {
+    color: rgba(215, 0, 0, 0.682);
+    font-size: 2.2rem;
+    position: relative;
+  }
+
+  .sec-title {
+    margin: 0 auto;
+    padding: 0 auto;
+    text-align: center;
+    height: 100px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 100px;
+  }
+
+
+  .menu-item p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgba(232, 131, 0, 0.842);
+    font-weight: bold;
+    font-size: 8px;
+  }
+
+  dd.item {
+    position: relative;
+    top: 20px;
+  }
+}
+
+/* レスポンシブ対応　スマホ　Menu */
+@media screen and (max-width: 768px) {
+
+/* ACCESS */
+
+}
+
+/* 決済・支払い方法（ACCESS） */
+/* 横幅を指定するための要素 */
+.map-wrap {
+  max-width: 50%;
+  /* ここに横幅を指定 */
+}
+
+/* Google Mapを囲う要素 */
+.map {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-top: 35%;
+  /* 比率を4:3に固定 */
+}
+
+/* Google Mapのiframe */
+.map iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.access h1 {
+  text-align: center;
+  height: 150px;
+  margin-top: 100px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.access_item {
+  float: left;
+  margin-left: 100px;
+  margin-top: 100px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.access_item .item {
+  padding: 20px 0;
+}
+
+.access_item h3 {
+  border-bottom: 1px solid black;
+  border-left: 5px solid black;
+  padding: 0 15px;
+}
+
+.box{
+  display: flex;
+  margin-left: 50px;
+}
+
+.payment {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin-left: 25%;
+}
+
+.payment .payment_item {
+  margin-top: 137px;
+  margin-right: 100px;
+}
+
+.payment_item h3 {
+  border-bottom: 1px solid black;
+  border-left: 5px solid black;
+  padding: 0 15px;
+  width: fit-content;
+}
+
+
+
+
+
